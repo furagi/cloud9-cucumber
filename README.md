@@ -14,7 +14,7 @@ Cucumber plugin for Cloud9
 	$ git clone https://github.com/ajaxorg/cloud9.git
 
 	$ cd cloud9
-	
+
 	$ npm install
 
 * Install this plugin: 
@@ -23,5 +23,5 @@ Cucumber plugin for Cloud9
 
 ## Using
 
-* For selecting cucumber syntax highlighter: 
+* For selecting cucumber syntax highlighter (in Cloud9): View -> Syntax -> Other -> gherkin
 * For autocmlpetion: press Ctrl + Space
