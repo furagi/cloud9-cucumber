@@ -14,7 +14,7 @@
       "url": "http://github.com/furagi/cloud9-cucumber.git"
     },
     "scripts": {
-    	"postinstall": "postinstall.js"
+    	"postinstall": "node postinstall.js"
     },
     "author": {
       "name": "Ilya Boyko",
