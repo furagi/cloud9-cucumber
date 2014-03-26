@@ -17,9 +17,13 @@ Cucumber plugin for Cloud9
 
 	$ npm install
 
+	$ bin/cloud9.sh
+
 * Install this plugin: 
 
 	$ npm install cucmber-cloud9
+
+IMPORTANT: install this plugin only after Cloud9 was started at least 1 time.
 
 ## Using
 

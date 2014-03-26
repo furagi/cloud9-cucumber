@@ -1,24 +1,30 @@
 {
-    "name": "cloud9-cucumber",
-    "version": "0.1.0",
-    "description": "Cucumber plugin for Cloud9. It provide autocompletion of steps and tags and higlighting (I used syntax highlighters for Gherkin source https://github.com/cucumber/gherkin-syntax-highlighters).",
-    "dependencies": {
-        "watch": "0.9.0",
-        "ncp": "0.5.0"
-    },
-    "engines": {
-      "node": ">= 0.8.24"
-    },
-    "repository": {
-      "type": "git",
-      "url": "http://github.com/furagi/cloud9-cucumber.git"
-    },
-    "scripts": {
-    	"postinstall": "node postinstall.js"
-    },
-    "author": {
-      "name": "Ilya Boyko",
-      "email": "furagi.usagi@gmail.com"
-    },
-    "readmeFilename": "README.md"
+  "name": "cloud9-cucumber",
+  "version": "0.6.1",
+  "description": "Cucumber plugin for Cloud9. It provide autocompletion of steps and tags and higlighting (I used syntax highlighters for Gherkin source https://github.com/cucumber/gherkin-syntax-highlighters).",
+  "dependencies": {
+    "watch": "0.9.0",
+    "ncp": "0.5.0"
+  },
+  "engines": {
+    "node": ">= 0.8.24"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/furagi/cloud9-cucumber.git"
+  },
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
+  "author": {
+    "name": "Ilya Boyko",
+    "email": "furagi.usagi@gmail.com"
+  },
+  "readmeFilename": "README.md",
+  "readme": "Cucumber plugin for Cloud9\n============================\n\n## Features\n\n* Syntax highlighting (it used syntax highlighters for Gherkin source https://github.com/cucumber/gherkin-syntax-highlighters).\n* Indexing project directory.\n* Atucompletion for tags and steps.\n\n## Installation\n\n* Install pure Cloud9: \n\n\t$ git clone https://github.com/ajaxorg/cloud9.git\n\n\t$ cd cloud9\n\n\t$ npm install\n\n* Install this plugin: \n\n\t$ npm install cucmber-cloud9\n\n## Using\n\n* For selecting cucumber syntax highlighter (in Cloud9): View -> Syntax -> Other -> gherkin\n* For autocmlpetion: press Ctrl + Space",
+  "bugs": {
+    "url": "https://github.com/furagi/cloud9-cucumber/issues"
+  },
+  "_id": "cloud9-cucumber@0.6.0",
+  "_from": "cloud9-cucumber@"
 }

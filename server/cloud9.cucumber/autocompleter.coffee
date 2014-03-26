@@ -1,7 +1,6 @@
 fs = require 'fs'
 crypto = require 'crypto'
 async = require 'async'
-_ = require 'underscore'
 watch = require 'watch'
 
 
