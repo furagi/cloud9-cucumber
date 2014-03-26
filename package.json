@@ -1,6 +1,6 @@
 {
     "name": "cloud9-cucumber",
-    "version": "0.1.1",
+    "version": "0.1.0",
     "description": "Cucumber plugin for Cloud9. It provide autocompletion of steps and tags and higlighting (I used syntax highlighters for Gherkin source https://github.com/cucumber/gherkin-syntax-highlighters).",
     "dependencies": {
         "watch": "0.9.0",
@@ -20,5 +20,5 @@
       "name": "Ilya Boyko",
       "email": "furagi.usagi@gmail.com"
     },
-    "readmeFilename": "README.MD"
+    "readmeFilename": "README.md"
 }

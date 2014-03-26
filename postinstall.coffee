@@ -1,7 +1,7 @@
 fs = require 'fs'
 async = require 'async'
 path = require 'path'
-# ncp = require('ncp').ncp
+ncp = require('ncp').ncp
 
 
 paths = {
@@ -24,13 +24,12 @@ async.waterfall [
 		dataStart = data.substring 0, indexStart
 		dataEnd = data.substring indexStart
 		data = dataStart + '\ngherkin: ["gherkin|feature"],' + dataEnd
-		fs.writeFile __dirname + paths.modeList, data, next
+		fs.writeFile paths.modeList, data, next
 	(next) -> fs.readFile 'mode-gherkin.js', next
 	(data, next) -> fs.writeFile paths.modeGherkin, data, next
 	(next) -> fs.readFile paths.pluginsList, next
 	(data, next) ->
 		data = String data
-		# var config = [
 		indexStart = data.indexOf 'var config'
 		indexStart = 1 + data.indexOf '[', indexStart
 		indexEnd = data.indexOf ';', indexStart

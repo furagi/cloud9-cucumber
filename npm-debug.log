@@ -19,23 +19,23 @@
 7 verbose parsed url   href: '.' }
 8 silly lockFile 3a52ce78- .
 9 verbose lock . /home/koneko/.npm/3a52ce78-.lock
-10 verbose tar pack [ '/home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/tmp.tgz',
+10 verbose tar pack [ '/home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/tmp.tgz',
 10 verbose tar pack   '.' ]
-11 verbose tarball /home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/tmp.tgz
+11 verbose tarball /home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/tmp.tgz
 12 verbose folder .
 13 silly lockFile 1f1177db-tar tar://.
 14 verbose lock tar://. /home/koneko/.npm/1f1177db-tar.lock
-15 silly lockFile 665efca2-53683-0-7865615736227483-tmp-tgz tar:///home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/tmp.tgz
-16 verbose lock tar:///home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/tmp.tgz /home/koneko/.npm/665efca2-53683-0-7865615736227483-tmp-tgz.lock
+15 silly lockFile 494f6121-64662-0-6544161557685584-tmp-tgz tar:///home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/tmp.tgz
+16 verbose lock tar:///home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/tmp.tgz /home/koneko/.npm/494f6121-64662-0-6544161557685584-tmp-tgz.lock
 17 silly lockFile 1f1177db-tar tar://.
 18 silly lockFile 1f1177db-tar tar://.
-19 silly lockFile 665efca2-53683-0-7865615736227483-tmp-tgz tar:///home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/tmp.tgz
-20 silly lockFile 665efca2-53683-0-7865615736227483-tmp-tgz tar:///home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/tmp.tgz
-21 verbose tar unpack /home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/tmp.tgz
-22 silly lockFile ed8a630b-53683-0-7865615736227483-package tar:///home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/package
-23 verbose lock tar:///home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/package /home/koneko/.npm/ed8a630b-53683-0-7865615736227483-package.lock
-24 silly lockFile 665efca2-53683-0-7865615736227483-tmp-tgz tar:///home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/tmp.tgz
-25 verbose lock tar:///home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/tmp.tgz /home/koneko/.npm/665efca2-53683-0-7865615736227483-tmp-tgz.lock
+19 silly lockFile 494f6121-64662-0-6544161557685584-tmp-tgz tar:///home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/tmp.tgz
+20 silly lockFile 494f6121-64662-0-6544161557685584-tmp-tgz tar:///home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/tmp.tgz
+21 verbose tar unpack /home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/tmp.tgz
+22 silly lockFile 3161d66f-64662-0-6544161557685584-package tar:///home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/package
+23 verbose lock tar:///home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/package /home/koneko/.npm/3161d66f-64662-0-6544161557685584-package.lock
+24 silly lockFile 494f6121-64662-0-6544161557685584-tmp-tgz tar:///home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/tmp.tgz
+25 verbose lock tar:///home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/tmp.tgz /home/koneko/.npm/494f6121-64662-0-6544161557685584-tmp-tgz.lock
 26 silly gunzTarPerm modes [ '755', '644' ]
 27 silly gunzTarPerm extractEntry package.json
 28 silly gunzTarPerm extractEntry .npmignore
@@ -51,20 +51,20 @@
 38 silly gunzTarPerm extractEntry server/cloud9.cucumber/cucumber.js
 39 silly gunzTarPerm extractEntry server/cloud9.cucumber/autocompleter.coffee
 40 silly gunzTarPerm extractEntry server/cloud9.cucumber/cucumber.coffee
-41 silly lockFile ed8a630b-53683-0-7865615736227483-package tar:///home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/package
-42 silly lockFile ed8a630b-53683-0-7865615736227483-package tar:///home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/package
-43 silly lockFile 665efca2-53683-0-7865615736227483-tmp-tgz tar:///home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/tmp.tgz
-44 silly lockFile 665efca2-53683-0-7865615736227483-tmp-tgz tar:///home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/tmp.tgz
+41 silly lockFile 3161d66f-64662-0-6544161557685584-package tar:///home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/package
+42 silly lockFile 3161d66f-64662-0-6544161557685584-package tar:///home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/package
+43 silly lockFile 494f6121-64662-0-6544161557685584-tmp-tgz tar:///home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/tmp.tgz
+44 silly lockFile 494f6121-64662-0-6544161557685584-tmp-tgz tar:///home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/tmp.tgz
 45 verbose tar pack [ '/home/koneko/.npm/cloud9-cucumber/0.1.0/package.tgz',
-45 verbose tar pack   '/home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/package' ]
+45 verbose tar pack   '/home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/package' ]
 46 verbose tarball /home/koneko/.npm/cloud9-cucumber/0.1.0/package.tgz
-47 verbose folder /home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/package
-48 silly lockFile ed8a630b-53683-0-7865615736227483-package tar:///home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/package
-49 verbose lock tar:///home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/package /home/koneko/.npm/ed8a630b-53683-0-7865615736227483-package.lock
+47 verbose folder /home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/package
+48 silly lockFile 3161d66f-64662-0-6544161557685584-package tar:///home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/package
+49 verbose lock tar:///home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/package /home/koneko/.npm/3161d66f-64662-0-6544161557685584-package.lock
 50 silly lockFile f5813fb0-loud9-cucumber-0-1-0-package-tgz tar:///home/koneko/.npm/cloud9-cucumber/0.1.0/package.tgz
 51 verbose lock tar:///home/koneko/.npm/cloud9-cucumber/0.1.0/package.tgz /home/koneko/.npm/f5813fb0-loud9-cucumber-0-1-0-package-tgz.lock
-52 silly lockFile ed8a630b-53683-0-7865615736227483-package tar:///home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/package
-53 silly lockFile ed8a630b-53683-0-7865615736227483-package tar:///home/koneko/tmp/npm-6386-Vas02Fz4/1395762853683-0.7865615736227483/package
+52 silly lockFile 3161d66f-64662-0-6544161557685584-package tar:///home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/package
+53 silly lockFile 3161d66f-64662-0-6544161557685584-package tar:///home/koneko/tmp/npm-10569-U0DvBhTH/1395819864662-0.6544161557685584/package
 54 silly lockFile f5813fb0-loud9-cucumber-0-1-0-package-tgz tar:///home/koneko/.npm/cloud9-cucumber/0.1.0/package.tgz
 55 silly lockFile f5813fb0-loud9-cucumber-0-1-0-package-tgz tar:///home/koneko/.npm/cloud9-cucumber/0.1.0/package.tgz
 56 silly lockFile 63c21e02-pm-cloud9-cucumber-0-1-0-package /home/koneko/.npm/cloud9-cucumber/0.1.0/package
@@ -113,70 +113,32 @@
 88 silly publish   readme: 'Cucumber plugin for Cloud9\n============================\n\n## Features\n\n* Syntax highlighting (it used syntax highlighters for Gherkin source https://github.com/cucumber/gherkin-syntax-highlighters).\n* Indexing project directory.\n* Atucompletion for tags and steps.\n\n## Installation\n\n* Install pure Cloud9: \n\n\t$ git clone https://github.com/ajaxorg/cloud9.git\n\n\t$ cd cloud9\n\n\t$ npm install\n\n* Install this plugin: \n\n\t$ npm install cucmber-cloud9\n\n## Using\n\n* For selecting cucumber syntax highlighter (in Cloud9): View -> Syntax -> Other -> gherkin\n* For autocmlpetion: press Ctrl + Space',
 88 silly publish   bugs: { url: 'https://github.com/furagi/cloud9-cucumber/issues' },
 88 silly publish   _id: 'cloud9-cucumber@0.1.0',
-88 silly publish   dist: { shasum: '072133cb971b074570531b5bf2e19c854eaa6231' },
+88 silly publish   dist: { shasum: '5e75a1f849b768cb2dc4dc216a217f0457e0d308' },
 88 silly publish   _from: '.' }
 89 verbose url raw cloud9-cucumber
 90 verbose url resolving [ 'https://registry.npmjs.org/', './cloud9-cucumber' ]
 91 verbose url resolved https://registry.npmjs.org/cloud9-cucumber
-92 info trying registry request attempt 1 at 02:54:13
+92 info trying registry request attempt 1 at 18:44:36
 93 http PUT https://registry.npmjs.org/cloud9-cucumber
-94 http 503 https://registry.npmjs.org/cloud9-cucumber
-95 verbose bad json <?xml version="1.0" encoding="utf-8"?>
-95 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-95 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-95 verbose bad json <html>
-95 verbose bad json   <head>
-95 verbose bad json     <title>503 backend read error</title>
-95 verbose bad json   </head>
-95 verbose bad json   <body>
-95 verbose bad json     <h1>Error 503 backend read error</h1>
-95 verbose bad json     <p>backend read error</p>
-95 verbose bad json     <h3>Guru Meditation:</h3>
-95 verbose bad json     <p>XID: 2661501061</p>
-95 verbose bad json     <hr>
-95 verbose bad json     <p>Varnish cache server</p>
-95 verbose bad json   </body>
-95 verbose bad json </html>
-96 error registry error parsing json
-97 info retry will retry, error on last attempt: SyntaxError: Unexpected token <
-97 info retry
-97 info retry <?xml version="1.0" encoding="utf-8"?>
-97 info retry <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-97 info retry  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-97 info retry <html>
-97 info retry   <head>
-97 info retry     <title>503 backend read error</title>
-97 info retry   </head>
-97 info retry   <body>
-97 info retry     <h1>Error 503 backend read error</h1>
-97 info retry     <p>backend read error</p>
-97 info retry     <h3>Guru Meditation:</h3>
-97 info retry     <p>XID: 2661501061</p>
-97 info retry     <hr>
-97 info retry     <p>Varnish cache server</p>
-97 info retry   </body>
-97 info retry </html>
-98 info trying registry request attempt 2 at 02:54:58
-99 http PUT https://registry.npmjs.org/cloud9-cucumber
-100 http 201 https://registry.npmjs.org/cloud9-cucumber
-101 verbose url raw cloud9-cucumber
-102 verbose url resolving [ 'https://registry.npmjs.org/', './cloud9-cucumber' ]
-103 verbose url resolved https://registry.npmjs.org/cloud9-cucumber
-104 info trying registry request attempt 1 at 02:55:31
-105 http GET https://registry.npmjs.org/cloud9-cucumber
-106 http 200 https://registry.npmjs.org/cloud9-cucumber
-107 error publish fail Cannot publish over existing version.
-107 error publish fail Update the 'version' field in package.json and try again.
-107 error publish fail
-107 error publish fail If the previous version was published in error, see:
-107 error publish fail     npm help unpublish
-107 error publish fail
-107 error publish fail To automatically increment version numbers, see:
-107 error publish fail     npm help version
-108 error System Linux 3.9.7-calculate
-109 error command "/usr/bin/node" "/usr/bin/npm" "publish"
-110 error cwd /var/www/localhost/htdocs/work/cloud9-cucumber
-111 error node -v v0.10.17
-112 error npm -v 1.3.8
-113 error code EPUBLISHCONFLICT
-114 verbose exit [ 1, true ]
+94 http 201 https://registry.npmjs.org/cloud9-cucumber
+95 verbose url raw cloud9-cucumber
+96 verbose url resolving [ 'https://registry.npmjs.org/', './cloud9-cucumber' ]
+97 verbose url resolved https://registry.npmjs.org/cloud9-cucumber
+98 info trying registry request attempt 1 at 18:44:52
+99 http GET https://registry.npmjs.org/cloud9-cucumber
+100 http 200 https://registry.npmjs.org/cloud9-cucumber
+101 error publish fail Cannot publish over existing version.
+101 error publish fail Update the 'version' field in package.json and try again.
+101 error publish fail
+101 error publish fail If the previous version was published in error, see:
+101 error publish fail     npm help unpublish
+101 error publish fail
+101 error publish fail To automatically increment version numbers, see:
+101 error publish fail     npm help version
+102 error System Linux 3.9.7-calculate
+103 error command "/usr/bin/node" "/usr/bin/npm" "publish"
+104 error cwd /var/www/localhost/htdocs/work/cloud9-cucumber
+105 error node -v v0.10.17
+106 error npm -v 1.3.8
+107 error code EPUBLISHCONFLICT
+108 verbose exit [ 1, true ]
