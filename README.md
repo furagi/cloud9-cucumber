@@ -11,17 +11,14 @@ Cucumber plugin for Cloud9
 
 * Install pure Cloud9: 
 
-	$ git clone https://github.com/ajaxorg/cloud9.git
-
-	$ cd cloud9
-
-	$ npm install
-
-	$ bin/cloud9.sh
+    git clone https://github.com/ajaxorg/cloud9.git
+    cd cloud9
+    npm install
+    bin/cloud9.sh
 
 * Install this plugin: 
 
-	$ npm install cucmber-cloud9
+    npm install cucmber-cloud9
 
 IMPORTANT: install this plugin only after Cloud9 was started at least 1 time.
 
