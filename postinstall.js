@@ -12,8 +12,6 @@ ncp = require('ncp').ncp;
 paths = {
     modeList: path.resolve(__dirname + '/../ace/lib/ace/ext/modelist.js'),
     modeGherkin: path.resolve(__dirname + '/../../plugins-client/lib.ace/www/mode/mode-gherkin.js'),
-    pluginsList: path.resolve(__dirname + '/../../configs/default.js'),
-    clientPluginsDir: path.resolve(__dirname + '/../../plugins-client/ext.cucumber'),
     serverPluginsDir: path.resolve(__dirname + '/../../plugins-server/cloud9.cucumber'),
     nodeModulesDir: path.resolve(__dirname + '/../watch')
 };
@@ -38,30 +36,6 @@ async.waterfall([
         return fs.readFile('mode-gherkin.js', next);
     }, function(data, next) {
         return fs.writeFile(paths.modeGherkin, data, next);
-    }, function(next) {
-        return fs.readFile(paths.pluginsList, next);
-    }, function(data, next) {
-        var dataEnd, dataStart, indexEnd, indexStart;
-        data = String(data);
-        indexStart = data.indexOf('var config');
-        indexStart = 1 + data.indexOf('[', indexStart);
-        indexEnd = data.indexOf(';', indexStart);
-        if (data.substring(indexStart, indexEnd).indexOf('./cloud9.cucumber') === -1) {
-            dataStart = data.substring(0, indexStart);
-            dataEnd = data.substring(indexStart);
-            data = dataStart + '\n"./cloud9.cucumber",' + dataEnd;
-        }
-        indexStart = data.indexOf('clientPlugins:', indexStart);
-        indexStart = 1 + data.indexOf('[', indexStart);
-        indexEnd = data.indexOf(']', indexStart);
-        if (data.substring(indexStart, indexEnd).indexOf('.ext/cucumber/cucumber') === -1) {
-            dataStart = data.substring(0, indexStart);
-            dataEnd = data.substring(indexStart);
-            data = dataStart + '\n"ext/cucumber/cucumber",' + dataEnd;
-        }
-        return fs.writeFile(paths.pluginsList, data, next);
-    }, function(next) {
-        return ncp('./client/ext.cucumber', paths.clientPluginsDir, next);
     }, function(next) {
         return ncp('./server/cloud9.cucumber', paths.serverPluginsDir, next);
     }, function(next) {

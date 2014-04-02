@@ -26,10 +26,6 @@ task 'sbuild', 'Build app', ->
 			out: './server/cloud9.cucumber'
 		}, {
 			opt: '-b'
-			src: './client/ext.cucumber'
-			out: './client/ext.cucumber'
-		}, {
-			opt: '-b'
 			src: './postinstall.coffee'
 			out: './'
 		}

@@ -7,8 +7,6 @@ ncp = require('ncp').ncp
 paths = {
 	modeList: path.resolve __dirname + '/../ace/lib/ace/ext/modelist.js'
 	modeGherkin: path.resolve __dirname + '/../../plugins-client/lib.ace/www/mode/mode-gherkin.js'
-	pluginsList: path.resolve __dirname + '/../../configs/default.js'
-	clientPluginsDir: path.resolve __dirname + '/../../plugins-client/ext.cucumber'
 	serverPluginsDir: path.resolve __dirname + '/../../plugins-server/cloud9.cucumber'
 	nodeModulesDir: path.resolve __dirname + '/../watch'
 };
@@ -27,25 +25,6 @@ async.waterfall [
 		fs.writeFile paths.modeList, data, next
 	(next) -> fs.readFile 'mode-gherkin.js', next
 	(data, next) -> fs.writeFile paths.modeGherkin, data, next
-	(next) -> fs.readFile paths.pluginsList, next
-	(data, next) ->
-		data = String data
-		indexStart = data.indexOf 'var config'
-		indexStart = 1 + data.indexOf '[', indexStart
-		indexEnd = data.indexOf ';', indexStart
-		if data.substring(indexStart, indexEnd).indexOf('./cloud9.cucumber') is -1
-			dataStart = data.substring 0, indexStart
-			dataEnd = data.substring indexStart
-			data = dataStart + '\n"./cloud9.cucumber",' + dataEnd
-		indexStart = data.indexOf 'clientPlugins:', indexStart
-		indexStart = 1 + data.indexOf '[', indexStart
-		indexEnd = data.indexOf ']', indexStart
-		if data.substring(indexStart, indexEnd).indexOf('.ext/cucumber/cucumber') is -1
-			dataStart = data.substring 0, indexStart
-			dataEnd = data.substring indexStart
-			data = dataStart + '\n"ext/cucumber/cucumber",' + dataEnd
-		fs.writeFile paths.pluginsList, data, next
-	(next) -> ncp './client/ext.cucumber', paths.clientPluginsDir, next
 	(next) -> ncp './server/cloud9.cucumber', paths.serverPluginsDir,  next
 	(next) -> ncp './node_modules/watch', paths.nodeModulesDir, next
 ], (err) ->
