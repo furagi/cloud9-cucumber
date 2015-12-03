@@ -18,7 +18,7 @@ Install pure Cloud9:
 
 Install this plugin: 
 
-    npm install cucumber-cloud9
+    npm install cloud9-cucumber
     Add this module to the your config file (for example look at the file config.js.example).
 
 IMPORTANT: install this plugin only after Cloud9 was started at least 1 time.
